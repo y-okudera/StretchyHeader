@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct StretchyHeaderApp: App {
+struct App: SwiftUI.App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChristmasFeedView()
         }
     }
 }
